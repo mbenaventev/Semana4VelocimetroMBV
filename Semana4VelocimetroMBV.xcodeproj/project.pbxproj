@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63EC36671C0E152E00724221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC36661C0E152E00724221 /* AppDelegate.swift */; };
+		63EC36691C0E152E00724221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC36681C0E152E00724221 /* ViewController.swift */; };
+		63EC366C1C0E152E00724221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EC366A1C0E152E00724221 /* Main.storyboard */; };
+		63EC366E1C0E152E00724221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EC366D1C0E152E00724221 /* Assets.xcassets */; };
+		63EC36711C0E152E00724221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EC366F1C0E152E00724221 /* LaunchScreen.storyboard */; };
+		63EC367C1C0E152E00724221 /* Semana4VelocimetroMBVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC367B1C0E152E00724221 /* Semana4VelocimetroMBVTests.swift */; };
+		63EC36871C0E152E00724221 /* Semana4VelocimetroMBVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC36861C0E152E00724221 /* Semana4VelocimetroMBVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63EC36781C0E152E00724221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63EC365B1C0E152D00724221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63EC36621C0E152D00724221;
+			remoteInfo = Semana4VelocimetroMBV;
+		};
+		63EC36831C0E152E00724221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63EC365B1C0E152D00724221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63EC36621C0E152D00724221;
+			remoteInfo = Semana4VelocimetroMBV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63EC36631C0E152D00724221 /* Semana4VelocimetroMBV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Semana4VelocimetroMBV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63EC36661C0E152E00724221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63EC36681C0E152E00724221 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63EC366B1C0E152E00724221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63EC366D1C0E152E00724221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63EC36701C0E152E00724221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63EC36721C0E152E00724221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63EC36771C0E152E00724221 /* Semana4VelocimetroMBVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Semana4VelocimetroMBVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63EC367B1C0E152E00724221 /* Semana4VelocimetroMBVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semana4VelocimetroMBVTests.swift; sourceTree = "<group>"; };
+		63EC367D1C0E152E00724221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63EC36821C0E152E00724221 /* Semana4VelocimetroMBVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Semana4VelocimetroMBVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63EC36861C0E152E00724221 /* Semana4VelocimetroMBVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semana4VelocimetroMBVUITests.swift; sourceTree = "<group>"; };
+		63EC36881C0E152E00724221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63EC36601C0E152D00724221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EC36741C0E152E00724221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EC367F1C0E152E00724221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63EC365A1C0E152D00724221 = {
+			isa = PBXGroup;
+			children = (
+				63EC36651C0E152D00724221 /* Semana4VelocimetroMBV */,
+				63EC367A1C0E152E00724221 /* Semana4VelocimetroMBVTests */,
+				63EC36851C0E152E00724221 /* Semana4VelocimetroMBVUITests */,
+				63EC36641C0E152D00724221 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63EC36641C0E152D00724221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63EC36631C0E152D00724221 /* Semana4VelocimetroMBV.app */,
+				63EC36771C0E152E00724221 /* Semana4VelocimetroMBVTests.xctest */,
+				63EC36821C0E152E00724221 /* Semana4VelocimetroMBVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63EC36651C0E152D00724221 /* Semana4VelocimetroMBV */ = {
+			isa = PBXGroup;
+			children = (
+				63EC36661C0E152E00724221 /* AppDelegate.swift */,
+				63EC36681C0E152E00724221 /* ViewController.swift */,
+				63EC366A1C0E152E00724221 /* Main.storyboard */,
+				63EC366D1C0E152E00724221 /* Assets.xcassets */,
+				63EC366F1C0E152E00724221 /* LaunchScreen.storyboard */,
+				63EC36721C0E152E00724221 /* Info.plist */,
+			);
+			path = Semana4VelocimetroMBV;
+			sourceTree = "<group>";
+		};
+		63EC367A1C0E152E00724221 /* Semana4VelocimetroMBVTests */ = {
+			isa = PBXGroup;
+			children = (
+				63EC367B1C0E152E00724221 /* Semana4VelocimetroMBVTests.swift */,
+				63EC367D1C0E152E00724221 /* Info.plist */,
+			);
+			path = Semana4VelocimetroMBVTests;
+			sourceTree = "<group>";
+		};
+		63EC36851C0E152E00724221 /* Semana4VelocimetroMBVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63EC36861C0E152E00724221 /* Semana4VelocimetroMBVUITests.swift */,
+				63EC36881C0E152E00724221 /* Info.plist */,
+			);
+			path = Semana4VelocimetroMBVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63EC36621C0E152D00724221 /* Semana4VelocimetroMBV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63EC368B1C0E152E00724221 /* Build configuration list for PBXNativeTarget "Semana4VelocimetroMBV" */;
+			buildPhases = (
+				63EC365F1C0E152D00724221 /* Sources */,
+				63EC36601C0E152D00724221 /* Frameworks */,
+				63EC36611C0E152D00724221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Semana4VelocimetroMBV;
+			productName = Semana4VelocimetroMBV;
+			productReference = 63EC36631C0E152D00724221 /* Semana4VelocimetroMBV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63EC36761C0E152E00724221 /* Semana4VelocimetroMBVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63EC368E1C0E152E00724221 /* Build configuration list for PBXNativeTarget "Semana4VelocimetroMBVTests" */;
+			buildPhases = (
+				63EC36731C0E152E00724221 /* Sources */,
+				63EC36741C0E152E00724221 /* Frameworks */,
+				63EC36751C0E152E00724221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63EC36791C0E152E00724221 /* PBXTargetDependency */,
+			);
+			name = Semana4VelocimetroMBVTests;
+			productName = Semana4VelocimetroMBVTests;
+			productReference = 63EC36771C0E152E00724221 /* Semana4VelocimetroMBVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63EC36811C0E152E00724221 /* Semana4VelocimetroMBVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63EC36911C0E152E00724221 /* Build configuration list for PBXNativeTarget "Semana4VelocimetroMBVUITests" */;
+			buildPhases = (
+				63EC367E1C0E152E00724221 /* Sources */,
+				63EC367F1C0E152E00724221 /* Frameworks */,
+				63EC36801C0E152E00724221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63EC36841C0E152E00724221 /* PBXTargetDependency */,
+			);
+			name = Semana4VelocimetroMBVUITests;
+			productName = Semana4VelocimetroMBVUITests;
+			productReference = 63EC36821C0E152E00724221 /* Semana4VelocimetroMBVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63EC365B1C0E152D00724221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Miguel Benavente Valdés";
+				TargetAttributes = {
+					63EC36621C0E152D00724221 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 93DCRRL9F7;
+					};
+					63EC36761C0E152E00724221 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 93DCRRL9F7;
+						TestTargetID = 63EC36621C0E152D00724221;
+					};
+					63EC36811C0E152E00724221 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 93DCRRL9F7;
+						TestTargetID = 63EC36621C0E152D00724221;
+					};
+				};
+			};
+			buildConfigurationList = 63EC365E1C0E152D00724221 /* Build configuration list for PBXProject "Semana4VelocimetroMBV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63EC365A1C0E152D00724221;
+			productRefGroup = 63EC36641C0E152D00724221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63EC36621C0E152D00724221 /* Semana4VelocimetroMBV */,
+				63EC36761C0E152E00724221 /* Semana4VelocimetroMBVTests */,
+				63EC36811C0E152E00724221 /* Semana4VelocimetroMBVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63EC36611C0E152D00724221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EC36711C0E152E00724221 /* LaunchScreen.storyboard in Resources */,
+				63EC366E1C0E152E00724221 /* Assets.xcassets in Resources */,
+				63EC366C1C0E152E00724221 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EC36751C0E152E00724221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EC36801C0E152E00724221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63EC365F1C0E152D00724221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EC36691C0E152E00724221 /* ViewController.swift in Sources */,
+				63EC36671C0E152E00724221 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EC36731C0E152E00724221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EC367C1C0E152E00724221 /* Semana4VelocimetroMBVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EC367E1C0E152E00724221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EC36871C0E152E00724221 /* Semana4VelocimetroMBVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63EC36791C0E152E00724221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63EC36621C0E152D00724221 /* Semana4VelocimetroMBV */;
+			targetProxy = 63EC36781C0E152E00724221 /* PBXContainerItemProxy */;
+		};
+		63EC36841C0E152E00724221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63EC36621C0E152D00724221 /* Semana4VelocimetroMBV */;
+			targetProxy = 63EC36831C0E152E00724221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63EC366A1C0E152E00724221 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63EC366B1C0E152E00724221 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63EC366F1C0E152E00724221 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63EC36701C0E152E00724221 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63EC36891C0E152E00724221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63EC368A1C0E152E00724221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63EC368C1C0E152E00724221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Semana4VelocimetroMBV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mbenaventev.Semana4VelocimetroMBV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63EC368D1C0E152E00724221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Semana4VelocimetroMBV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mbenaventev.Semana4VelocimetroMBV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63EC368F1C0E152E00724221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Semana4VelocimetroMBVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mbenaventev.Semana4VelocimetroMBVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semana4VelocimetroMBV.app/Semana4VelocimetroMBV";
+			};
+			name = Debug;
+		};
+		63EC36901C0E152E00724221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Semana4VelocimetroMBVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mbenaventev.Semana4VelocimetroMBVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semana4VelocimetroMBV.app/Semana4VelocimetroMBV";
+			};
+			name = Release;
+		};
+		63EC36921C0E152E00724221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Semana4VelocimetroMBVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mbenaventev.Semana4VelocimetroMBVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Semana4VelocimetroMBV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		63EC36931C0E152E00724221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Semana4VelocimetroMBVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mbenaventev.Semana4VelocimetroMBVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Semana4VelocimetroMBV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63EC365E1C0E152D00724221 /* Build configuration list for PBXProject "Semana4VelocimetroMBV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EC36891C0E152E00724221 /* Debug */,
+				63EC368A1C0E152E00724221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63EC368B1C0E152E00724221 /* Build configuration list for PBXNativeTarget "Semana4VelocimetroMBV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EC368C1C0E152E00724221 /* Debug */,
+				63EC368D1C0E152E00724221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63EC368E1C0E152E00724221 /* Build configuration list for PBXNativeTarget "Semana4VelocimetroMBVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EC368F1C0E152E00724221 /* Debug */,
+				63EC36901C0E152E00724221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63EC36911C0E152E00724221 /* Build configuration list for PBXNativeTarget "Semana4VelocimetroMBVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EC36921C0E152E00724221 /* Debug */,
+				63EC36931C0E152E00724221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63EC365B1C0E152D00724221 /* Project object */;
+}
