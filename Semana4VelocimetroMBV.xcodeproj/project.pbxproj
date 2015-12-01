@@ -47,6 +47,7 @@
 		63EC36821C0E152E00724221 /* Semana4VelocimetroMBVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Semana4VelocimetroMBVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EC36861C0E152E00724221 /* Semana4VelocimetroMBVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semana4VelocimetroMBVUITests.swift; sourceTree = "<group>"; };
 		63EC36881C0E152E00724221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63EC36941C0E15D000724221 /* RetoSemana4_Velocimetro01.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RetoSemana4_Velocimetro01.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 				63EC366D1C0E152E00724221 /* Assets.xcassets */,
 				63EC366F1C0E152E00724221 /* LaunchScreen.storyboard */,
 				63EC36721C0E152E00724221 /* Info.plist */,
+				63EC36941C0E15D000724221 /* RetoSemana4_Velocimetro01.playground */,
 			);
 			path = Semana4VelocimetroMBV;
 			sourceTree = "<group>";
